@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "langgraph-demo"
+version = "0.1.0"
+description = ""
+authors = ["10148120 <seonghwa.kim@kt.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.3"
+uvicorn = "^0.32.0"
+langgraph = "^0.2.39"
+langchain-openai = "^0.2.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
